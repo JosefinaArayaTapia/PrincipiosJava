@@ -1,20 +1,22 @@
 public class vehiculo {
 
-  /** Función principal */
-private int ruedas;
-private String nombre;
-private double velocidad=0;
+    /**
+     * Función principal
+     */
 
-public void acelerar(double cantidad) {
-        velocidad= velocidad + cantidad;
-}
-public void frenar(double cantidad) {
-        velocidad=velocidad - cantidad;
-}
+    private double velocidad = 0;
 
-public double obtenerVelocidad(){
-return  velocidad;  
- }
+    public void acelerar(double cantidad) {
+        velocidad = velocidad + cantidad;
+    }
+
+    public void frenar(double cantidad) {
+        velocidad = velocidad - cantidad;
+    }
+
+    public double obtenerVelocidad() {
+        return velocidad;
+    }
 
 
 }

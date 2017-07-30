@@ -1,9 +1,15 @@
-public class MotorCoche{ //Clase interna
+public class MotorCoche { //Clase interna
 
     public int cilindrada;
 
-public MotorCoche(int cil){
+    public int getCilindrada() {
+        return cilindrada;
+    }
 
-    cilindrada=cil;
- }
+    public MotorCoche(int cil) {
+
+        cilindrada = cil;
+
+    }
+
 }
