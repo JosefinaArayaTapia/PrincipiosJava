@@ -19,6 +19,44 @@ public class app {
         coche c1 = new coche(40);
         c1.encenderMotor();
 
+        /*Ejecicios*/
 
+
+        String sPalabra = "anita lava la tina";
+        int inc = 0;
+        int des = sPalabra.length() - 1;
+        boolean bError = false;
+
+        while ((inc < des) && (!bError)) {
+
+            if(sPalabra.charAt(inc)==sPalabra.charAt(des)){
+
+                inc++;
+                des--;
+
+            }else {
+
+                bError=true;
+            }
+        }
+
+        String str1="hola";
+        String str2=str1;
+        str1.toUpperCase();
+        str1=str1+"hola";
+        System.out.println("String1:"+str1+" String2:"+str2);
+
+
+        int i=0;
+        int j=6;
+        while (i<0) {
+            i++;
+            j++;
+        }
+        System.out.println(j);
     }
+
+
+
+
 }
